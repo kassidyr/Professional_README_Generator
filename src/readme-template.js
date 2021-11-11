@@ -1,10 +1,8 @@
-module.exports = (projectTitle, description, tableOfContents, installation, usage, contributing, tests, emailQuestions) => {
+module.exports = (projectTitle, description, installation, usage, contributing, tests, gitHubUserName, email) => {
     return `
     # ${projectTitle}
     
     ## ${description}
-    
-    ## ${tableOfContents}
     
     ## ${installation}
     
@@ -14,6 +12,7 @@ module.exports = (projectTitle, description, tableOfContents, installation, usag
     
     ## ${tests}
     
-    ## For questions, please email ${emailQuestions}
+    ## GitHub Profile: ${gitHubUserName} 
+    For questions, please email ${email}
     `;
 };
