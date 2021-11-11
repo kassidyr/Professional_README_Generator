@@ -7,12 +7,26 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'gitHubUserName',
-            message: 'Enter your GitHub Username'
+            message: 'Enter your GitHub Username (required)',
+            validate: gitHubUserNameInput => {
+                if(gitHubUserNameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your name!');
+                }
+            }
         },
         {
             type: 'input',
             name: 'email',
-            message: 'Enter your emaile address'
+            message: 'Enter your email address (required)',
+            validate: emailInput => {
+                if(emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email!');
+                }
+            }
         },
     ]);
 };
@@ -27,7 +41,14 @@ const promptProject = () => {
         {
             type: 'input',
             name: 'projectTitle',
-            message: 'What is the title of your project?'
+            message: 'What is the title of your project?',
+            validate: projectTitleInput => {
+                if(projectTitleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your project title!');
+                }
+            }
         },
         {
             type: 'input',
