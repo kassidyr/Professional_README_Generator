@@ -2,15 +2,15 @@
     # README generator
     
     ## Description:
-    An app that generates readme files
+    generator for a readme file
 
     ## Table of Contents
-    1. [Questions](#questions)
+    1. [Questions](#Questions)
 
     
     ## Installation:
-    step step
-    
+    123
+
     ## Usage:
     answer questions
     
@@ -20,7 +20,7 @@
     ## Tests:
     testy test
     
-    ## <a name="questions">Questions<a>
+    ## Questions
     GitHub Profile: kassidyr 
     For questions, please email kassidy.ralph@gmail.com
     
