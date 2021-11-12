@@ -2,25 +2,28 @@
     # README generator
     
     ## Description:
-    generator for a readme file
+    generator
 
     ## Table of Contents
-    1. [Questions](#Questions)
+    1. [Installation](#Installation)
+    2. [Usage](#Usage)
+    3. [Contributing](#Contributing)
+    4. [Tests](#Tests)
+    5. [Questions](#Questions)
 
-    
-    ## Installation:
+    ## Installation <a name="Installation"></a>
     123
 
     ## Usage:
-    answer questions
+    test
     
     ## Contributing:
     true
     
     ## Tests:
-    testy test
+    123
     
-    ## Questions
+    ## Questions:
     GitHub Profile: kassidyr 
     For questions, please email kassidy.ralph@gmail.com
     

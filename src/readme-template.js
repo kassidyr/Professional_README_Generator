@@ -8,14 +8,13 @@ module.exports = templateData => {
     ${templateData.description}
 
     ## Table of Contents
-    1. [Installation]($Installation)
-    2.
-    3.
-    4.
+    1. [Installation](#Installation)
+    2. [Usage](#Usage)
+    3. [Contributing](#Contributing)
+    4. [Tests](#Tests)
     5. [Questions](#Questions)
 
-    
-    ## Installation:
+    ## Installation <a name="Installation"></a>
     ${templateData.installation}
 
     ## Usage:
@@ -27,7 +26,7 @@ module.exports = templateData => {
     ## Tests:
     ${templateData.tests}
     
-    ## Questions
+    ## Questions:
     GitHub Profile: ${templateData.gitHubUserName} 
     For questions, please email ${templateData.email}
     `;
