@@ -1,8 +1,10 @@
 const inquirer = require('inquirer');
-// const fs = require('fs');
-// const generatePage = require('./src/readme-template');
+const fs = require('fs');
+const generatePage = require('./src/readme-template');
 
-const promptUser = () => {
+
+const promptProject = () => {
+
     return inquirer.prompt([
         {
             type: 'input',
@@ -28,16 +30,6 @@ const promptUser = () => {
                 }
             }
         },
-    ]);
-};
-
-const promptProject = () => {
-    console.log(`
-    =================
-    Add a New Project
-    =================
-    `);
-    return inquirer.prompt([
         {
             type: 'input',
             name: 'projectTitle',
@@ -85,15 +77,14 @@ const promptProject = () => {
     ])
 }
         
-promptUser()
-    .then(answers => console.log(answers))
-    .then(promptProject)
-    .then(projectAnswers => console.log(projectAnswers));
+promptProject()
+  .then(portfolioData => {
+    const pageMD = generatePage(portfolioData);
 
-// const pageMD = generatePage(projectTitle, description, tableOfContents, installation, usage, contributing, tests, emailQuestions);
+    fs.writeFile('./README.md', pageMD, err => {
+      if (err) throw new Error(err);
 
-// fs.writeFile('./README.md', pageMD, err => {
-//     if (err) throw err;
+      console.log('Page created! Check out README.md in this directory to see it!');
+    });
+  });
 
-//     console.log('README complete! Check out README.md to see the output!');
-// });

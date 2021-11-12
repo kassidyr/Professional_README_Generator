@@ -1,18 +1,30 @@
-module.exports = (projectTitle, description, installation, usage, contributing, tests, gitHubUserName, email) => {
+module.exports = templateData => {
+    console.log(templateData)
+
     return `
-    # ${projectTitle}
+    # ${templateData.projectTitle}
     
-    ## ${description}
+    ## Description:
+    ${templateData.description}
+
+    ## Table of Contents
+    1. [Questions](#questions)
+
     
-    ## ${installation}
+    ## Installation:
+    ${templateData.installation}
     
-    ## ${usage}
+    ## Usage:
+    ${templateData.usage}
     
-    ## ${contributing}
+    ## Contributing:
+    ${templateData.contributing}
     
-    ## ${tests}
+    ## Tests:
+    ${templateData.tests}
     
-    ## GitHub Profile: ${gitHubUserName} 
-    For questions, please email ${email}
+    ## <a name="questions">Questions<a>
+    GitHub Profile: ${templateData.gitHubUserName} 
+    For questions, please email ${templateData.email}
     `;
 };
