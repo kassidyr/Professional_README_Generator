@@ -58,16 +58,15 @@ const promptProject = () => {
             message: 'Provide instructions and examples for use.'
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
-            message: 'Please choose whether you prefer an MIT license or a General Public License (GNU).',
-            choices: ['MIT license', 'General Public License']
+            message: 'Please choose whether you prefer an MIT license, a General Public License (GNU), or none.',
+            choices: ['MIT license', 'General Public License', 'None']
         },
         {
-            type: 'confirm',
+            type: 'input',
             name: 'contributing',
-            message: 'Would you like to add a contributor covenant with guidelines so that other developers can contribute to your project?',
-            default: false
+            message: 'Please provide what the user needs to know about contributing to the repository',
         },
         {
             type: 'input',
