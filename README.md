@@ -15,10 +15,10 @@
     6. [License](#license)
 
     ## Installation:
-    Install Node.js if you have not done so already, cloned the repository from GitHub, enter "node app" in terminal, and respond to the prompts.
+    Install Node.js if you have not done so already, clone the repository from GitHub, enter "node app" in the terminal, and respond to the prompts.
 
     ## Usage:
-    Install Node.js if you have not done so already, cloned the repository from GitHub, enter "node app" in terminal, and respond to the prompts.
+    Use this file to automatically create a README file for any project.
     
     ## Contributing:
     We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
