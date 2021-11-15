@@ -4,29 +4,29 @@
     
     
     ## Description:
-    This application generates a README file based on a series of responses
+    A command-line application that dynamically generates a professional README.md file from a user's input
 
     ## Table of Contents
-    1. [Installation](#Installation)
-    2. [Usage](#Usage)
-    3. [Contributing](#Contributing)
-    4. [Tests](#Tests)
-    5. [Questions](#Questions)
-    6. [License](#License)
+    1. [Installation](##-Installation)
+    2. [Usage](##-Usage)
+    3. [Contributing](##-Contributing)
+    4. [Tests](##-Tests)
+    5. [Questions](##-Questions)
+    6. [License](###-License)
 
-    ## Installation: <a name="Installation"></a>
-    Clone this repository to run the application
+    ## Installation:
+    Install Node.js if you have not done so already, cloned the repository from GitHub, enter "node app" in terminal, and respond to the prompts.
 
-    ## Usage: <a name="Usage"></a>
-    Use this for any project in which you would like to create a README document
+    ## Usage:
+    Use this for any project in which you would like to create a README.md document
     
-    ## Contributing: <a name="Contributing"></a>
-    At this time we are not seeking contributions
+    ## Contributing:
+    We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
     
-    ## Tests: <a name="Tests"></a>
-    test example
+    ## Tests:
+    N/A
     
-    ## Questions: <a name="Questions"></a>
+    ## Questions:
     GitHub Profile: kassidyr 
     For questions, please email kassidy.ralph@gmail.com
     

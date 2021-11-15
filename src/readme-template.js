@@ -30,7 +30,7 @@ module.exports = templateData => {
             return ``;
         }
         else{
-            return`6. [License](#License)`
+            return`6. [License](###-License)`
         }
     }
 
@@ -43,26 +43,26 @@ module.exports = templateData => {
     ${templateData.description}
 
     ## Table of Contents
-    1. [Installation](#Installation)
-    2. [Usage](#Usage)
-    3. [Contributing](#Contributing)
-    4. [Tests](#Tests)
-    5. [Questions](#Questions)
+    1. [Installation](##-Installation)
+    2. [Usage](##-Usage)
+    3. [Contributing](##-Contributing)
+    4. [Tests](##-Tests)
+    5. [Questions](##-Questions)
     ${licenseToc(templateData.license)}
 
-    ## Installation: <a name="Installation"></a>
+    ## Installation:
     ${templateData.installation}
 
-    ## Usage: <a name="Usage"></a>
+    ## Usage:
     ${templateData.usage}
     
-    ## Contributing: <a name="Contributing"></a>
+    ## Contributing:
     ${templateData.contributing}
     
-    ## Tests: <a name="Tests"></a>
+    ## Tests:
     ${templateData.tests}
     
-    ## Questions: <a name="Questions"></a>
+    ## Questions:
     GitHub Profile: ${templateData.gitHubUserName} 
     For questions, please email ${templateData.email}
     
