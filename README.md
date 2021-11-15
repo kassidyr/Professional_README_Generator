@@ -1,7 +1,7 @@
 
     # README Generator
 
-    
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
     
     ## Description:
     A command-line application that dynamically generates a professional README.md file from a user's input

@@ -2,8 +2,8 @@ module.exports = templateData => {
     console.log(templateData)
 
     //Generate Badge for top of README
-    function licenseBadge(license) {
-        if(license == "MIT License") {
+    function licenseBadge (license) {
+        if(license == "MIT license") {
             return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
         }
         else if (license == "General Public License") {
