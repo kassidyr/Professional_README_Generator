@@ -30,7 +30,7 @@ module.exports = templateData => {
             return ``;
         }
         else{
-            return`6. [License](###-License)`
+            return`6. [License](#license)`
         }
     }
 
@@ -43,11 +43,11 @@ module.exports = templateData => {
     ${templateData.description}
 
     ## Table of Contents
-    1. [Installation](##-Installation)
-    2. [Usage](##-Usage)
-    3. [Contributing](##-Contributing)
-    4. [Tests](##-Tests)
-    5. [Questions](##-Questions)
+    1. [Installation](#installation)
+    2. [Usage](#usage)
+    3. [Contributing](#contributing)
+    4. [Tests](#tests)
+    5. [Questions](#questions)
     ${licenseToc(templateData.license)}
 
     ## Installation:
